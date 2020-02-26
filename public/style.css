@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline;
+}
+
+footer ul li {
+    display: inline;
+}

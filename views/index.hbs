@@ -1,5 +1,13 @@
-<form action="/" method="POST">
-    <b>Username:</b> <input type="text" name="username" />
-    <b>Password:</b> <input type="password" name="password" />
-    <input type="submit" value="send">
-</form>
+<div id="container">
+    <div id="sign-up">
+        <h1>Login/Signup</h1>
+        <form action="/" method="POST">
+            <b>Username:</b> <input type="text" name="username" />
+            <b>Password:</b> <input type="password" name="password" />
+            <button type="submit"><i class="fa fa-chevron-right"></i></button>
+        </form>
+        {{#if err}}
+        <h1>{{err}}</h1>
+        {{/if}}
+    </div>
+</div>
